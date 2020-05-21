@@ -267,6 +267,9 @@ define(['module'], function (module) {
             text.createXhr())) {
         text.get = function (url, callback, errback, headers) {
             var xhr = text.createXhr(), header;
+          /*global require, XMLHttpRequest, ActiveXObject,
+  define, window, process, Packages,
+  java, location, Components, FileUtils */
             xhr.open('GET', url, true);
 
             //Allow plugins direct access to xhr headers
