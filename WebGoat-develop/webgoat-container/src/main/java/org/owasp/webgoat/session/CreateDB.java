@@ -106,6 +106,8 @@ public class CreateDB {
                     + ")";
             statement.executeUpdate(createTableStatement);
         } catch (SQLException e) {
+            //
+            //
             System.out.println("Error creating message database " + e.getLocalizedMessage());
         }
     }
