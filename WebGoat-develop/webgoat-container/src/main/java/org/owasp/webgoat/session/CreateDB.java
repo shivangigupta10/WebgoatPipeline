@@ -1,4 +1,9 @@
-
+Adding some additional comments...
+    //
+    //
+    //
+    //
+    //
 package org.owasp.webgoat.session;
 
 import java.sql.Connection;
@@ -67,10 +72,7 @@ public class CreateDB {
             statement.executeUpdate(createTableStatement);
 
             String insertData1 = "INSERT INTO servers VALUES ('1', 'webgoat-dev', '192.168.4.0', 'AA:BB:11:22:CC:DD', 'online', 'Development server')";
-            String insertData2 = "INSERT INTO servers VALUES ('2', 'webgoat-tst', '192.168.2.1', 'EE:FF:33:44:AB:CD', 'online', 'Test server')";
-            String insertData3 = "INSERT INTO servers VALUES ('3', 'webgoat-acc', '192.168.3.3', 'EF:12:FE:34:AA:CC', 'offline', 'Acceptance server')";
-            String insertData4 = "INSERT INTO servers VALUES ('4', 'webgoat-pre-prod', '192.168.6.4', 'EF:12:FE:34:AA:CC', 'offline', 'Pre-production server')";
-            String insertData5 = "INSERT INTO servers VALUES ('4', 'webgoat-prd', '104.130.219.202', 'FA:91:EB:82:DC:73', 'out of order', 'Production server')";
+            
             statement.executeUpdate(insertData1);
             statement.executeUpdate(insertData2);
             statement.executeUpdate(insertData3);
