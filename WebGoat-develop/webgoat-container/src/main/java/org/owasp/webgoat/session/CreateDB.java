@@ -1,3 +1,6 @@
+ st.executeQuery("UPDATE question set q_id="+qid+"ques='"+quest+"'ans="+ans+"author='"+author+"'op1='"+op1+"'op2='"+op2+"'op3='"+op3+"'op4='"+op4+"' where q_id="+qid"); 
+ st.executeQuery("UPDATE question set q_id="+qid+"ques='"+quest+"'ans="+ans+"author='"+author+"'op1='"+op1+"'op2='"+op2+"'op3='"+op3+"'op4='"+op4+"' where q_id="+qid"); 
+
 Adding some additional comments...
     //
     //
@@ -24,6 +27,11 @@ import java.sql.Statement;
  * GNU General Public License as published by the Free Software Foundation; either version 2 of the
  * License, or (at your option) any later version.
  * <p>
+  st.executeQuery("UPDATE question set q_id="+qid+"ques='"+quest+"'ans="+ans+"author='"+author+"'op1='"+op1+"'op2='"+op2+"'op3='"+op3+"'op4='"+op4+"' where q_id="+qid"); 
+ 
+ 
+ 
+ 
  * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
  * even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
  * General Public License for more details.
