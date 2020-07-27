@@ -27,6 +27,7 @@ import java.sql.Statement;
  * GNU General Public License as published by the Free Software Foundation; either version 2 of the
  * License, or (at your option) any later version.
  * <p>
+ 
   //st.executeQuery("UPDATE question set q_id="+qid+"ques='"+quest+"'ans="+ans+"author='"+author+"'op1='"+op1+"'op2='"+op2+"'op3='"+op3+"'op4='"+op4+"' where q_id="+qid"); 
  
  
